@@ -1,0 +1,63 @@
+.table-image-contact {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #808080;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-name-letter{
+    font-size: 20px;
+    color: #808080;
+}
+
+.list-image-product {        
+    border: 1px solid #808080;
+    width: 100px;
+    height: 100px;       
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.button-fixed-mobile{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    padding: 7px;
+    bottom: 0;
+    right: 0 !important;
+    z-index: 999;
+}
+
+.rounded-button{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 260px);
+    padding: 1rem;
+    justify-content: center;
+}
+
+.favorite-button {
+    position: absolute;
+    top: 0px;
+    right: 100;
+    width: 200px;
+    height: 100px;
+}
