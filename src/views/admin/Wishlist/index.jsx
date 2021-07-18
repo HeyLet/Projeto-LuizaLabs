@@ -121,7 +121,7 @@ function Wishlist() {
                                 <i 
                                 onClick={(e) => deleteProduct(e, product.id)}
 
-                                class="far fa-times-circle"></i>
+                                className="far fa-times-circle"></i>
                               
                             </Col>                           
                           </Row>

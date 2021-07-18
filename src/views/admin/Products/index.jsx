@@ -53,7 +53,7 @@ function Products() {
                     searchItens && searchItens.length === 0 ?
                       <p className="mt-3 text-center">Nenhum registro foi encontrado...</p> :
                       searchItens.map((product) => (
-                        <Product product={product} setLoading={setLoading}/>
+                        <Product key={product.id} product={product} setLoading={setLoading}/>
                       ))
                   } 
               </Col>
