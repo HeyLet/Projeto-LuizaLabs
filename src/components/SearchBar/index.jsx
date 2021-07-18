@@ -17,7 +17,7 @@ export default function SearchBar({ value, onChange, onClick, onKeyDown }) {
       <FormGroup className="test">
         <InputGroup
           style={{ flexWrap: "nowrap" }}
-          className="input-group-alternative"
+          className="input-group-alternative input-search"
         >
           <Input
             value={value}

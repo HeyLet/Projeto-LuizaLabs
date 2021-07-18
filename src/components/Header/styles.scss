@@ -1,5 +1,5 @@
 .header-background {
-  background: #BE17F8;
+  background: #660066;
 }
 .navbar-header {
   position: absolute;
@@ -9,10 +9,26 @@
   height: 100px;
 }
 
-.navbar-purple {
-  background: #BE17F8;
-}
 
 .text-white {
-  color: #FFF;
+  color: #FFF !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.width-total{
+  width: 100%;
+}
+
+.navbar-link {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar-link-mobile {
+  display: flex;
+  -webkit-flex-wrap: wrap;  
+  justify-content: flex-end;
 }
