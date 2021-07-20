@@ -26,7 +26,7 @@ export default function Header({ searchProduct }){
               <div className="collapse navbar-collapse" id="navbarsExample02">
                 <ul className="navbar-nav mr-auto navbar-link">
                   <li className="nav-item">
-                    <span className="text-white" href="#"><i className="fas fa-map-marker-alt"></i> Cidade: São Paulo</span>
+                    <span className="nav-link text-white" href="#"><i className="fas fa-map-marker-alt"></i> Cidade: São Paulo</span>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link text-white" href="#"><i className="fas fa-phone"></i> Central de atendimentos</a>
@@ -35,7 +35,6 @@ export default function Header({ searchProduct }){
                     <a className="nav-link text-white" onClick={() => history.push(`/wishlist`)}><i className="fas fa-heart"></i> Lista de desejos</a>
                   </li>
                 </ul>
-
               </div>
               
             </nav>

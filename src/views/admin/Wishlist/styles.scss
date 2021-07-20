@@ -38,11 +38,12 @@
     display: flex;
     justify-content: center;
     webkit-flex: 1 1 auto;
+    cursor: pointer;
 }
 
 .price-text {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    color: #ffcc00;
+    color: #ffcc00;    
 }
